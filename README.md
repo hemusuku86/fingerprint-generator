@@ -2,12 +2,13 @@
 Generate Fingerprint from User-Agent, In Python.<br>
 Properties and Method results be consistent with User-Agent.<br>
 ### Now we have:
-- all navigator properties (without bluetooth and contacts cuz i don't have android phone)
+- all navigator properties!
+- window.screen
 
 ### Aiming to add:
 - more navigator
-- window properties like navigator
-- Some methods like: canvas API, Math, Date(useful for js_inst)
+- more window properties
+- canvas API reproduce
 # 📚 Usage
 Example:
 ```py
