@@ -19,7 +19,7 @@ class fingerprint:
             "buildID": "20181001000000" if self.engine == "firefox" else "UNDEFINED",
             "clipboard": '[object Clipboard]',
             "connection": '[object NetworkInformation]' if self.engine == "chromium" else "UNDEFINED",
-            "contancts": "[object ContactsManager]" if self.engine == "chromium" and "Android" in self.ua else "UNDEFINED",
+            "contacts": "[object ContactsManager]" if self.engine == "chromium" and "Android" in self.ua else "UNDEFINED",
             "cookieEnabled": True,
             "credentials": '[object CredentialsContainer]',
             "deviceMemory": random.choice([4,8]) if self.engine == "chromium" and "like Mac OS X" not in self.ua else "UNDEFINED",
